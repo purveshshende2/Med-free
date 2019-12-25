@@ -1,0 +1,36 @@
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead>tr>th {
+    float: left;
+    position: relative;
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+body {
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+}
+
+.onetable {
+    top: 50px !important;
+}
+
+body {
+    background: #9796f0;
+    background: -webkit-linear-gradient(to right, #9796f0, #fbc7d4);
+    background: linear-gradient(to right, #5958a8, #fbc7d4);
+}
+
+.nav-link {
+    color: #555;
+}
+
+.nav-link:hover {
+    background: #f5f5f5;
+}
